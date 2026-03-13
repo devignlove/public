@@ -1,0 +1,13 @@
+{
+  "apiVersion": 2,
+  "name": "ozi/remorque-details",
+  "title": "Détails Remorque",
+  "category": "widgets",
+  "icon": "admin-tools",
+  "description": "Éditez les métadonnées d'une remorque via l'éditeur de blocs.",
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:./remorque-editor.js",
+  "editorStyle": "file:./remorque-editor.css"
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": 2,
+  "name": "ozi/showcase",
+  "title": "Ozi Showcase Slider",
+  "category": "design",
+  "icon": "slides",
+  "description": "Dynamic slider from Remorques (CPT).",
+  "supports": {
+    "align": [
+      "full",
+      "wide"
+    ],
+    "html": false
+  },
+  "style": "file:../../assets/css/showcase.css",
+  "viewScript": "file:../../assets/js/showcase.js",
+  "editorStyle": "file:./showcase-editor.css",
+  "editorScript": "file:./showcase-editor.js"
+}

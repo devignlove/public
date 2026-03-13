@@ -1,0 +1,31 @@
+<header id="site-header" class="site-header" role="banner">
+  <div class="site-header__inner">
+    <div class="site-branding">
+      <!-- wp:site-logo {"width":180} /-->
+    </div>
+
+    <button
+      id="menu-toggle"
+      class="burger"
+      aria-expanded="false"
+      aria-controls="site-nav"
+      type="button"
+      aria-label="Ouvrir le menu"
+      data-open-text="Ouvrir le menu"
+      data-close-text="Fermer le menu"
+    >
+      <span class="screen-reader-text">Ouvrir le menu</span>
+      <span class="burger__line burger__line--top"></span>
+      <span class="burger__line burger__line--middle"></span>
+      <span class="burger__line burger__line--bottom"></span>
+    </button>
+
+    <nav id="site-nav" class="site-nav" role="navigation" aria-label="Menu principal" aria-hidden="true">
+      <!-- wp:navigation {"overlayMenu":"never","className":"site-nav__block","layout":{"type":"flex","justifyContent":"right","orientation":"horizontal"}} -->
+      <!-- wp:page-list /-->
+      <!-- /wp:navigation -->
+    </nav>
+  </div>
+
+  <div id="nav-backdrop" class="site-nav-backdrop" tabindex="-1" aria-hidden="true"></div>
+</header>

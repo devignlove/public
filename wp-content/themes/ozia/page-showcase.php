@@ -1,0 +1,24 @@
+<?php
+declare(strict_types=1);
+
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+
+get_header();
+?>
+
+<main id="site-main">
+    <?php
+    if ( have_posts() ) :
+        while ( have_posts() ) :
+            the_post();
+            echo do_shortcode( '[ozi_showcase]' );
+            the_content();
+        endwhile;
+    endif;
+    ?>
+</main>
+
+<?php
+get_footer();

@@ -1,0 +1,471 @@
+body.post-type-remorques {
+  --ozi-admin-bg: #f3f6fb;
+  --ozi-admin-card: #ffffff;
+  --ozi-admin-ink: #122033;
+  --ozi-admin-muted: #607086;
+  --ozi-admin-line: #d7e0ea;
+  --ozi-admin-accent: #0f7cff;
+  --ozi-admin-accent-soft: rgba(15, 124, 255, 0.12);
+  --ozi-admin-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+  --ozi-admin-sticky-offset: 18px;
+  background: var(--ozi-admin-bg);
+}
+
+body.post-type-remorques #wpcontent,
+body.post-type-remorques #wpbody-content,
+body.post-type-remorques .wrap {
+  background: var(--ozi-admin-bg);
+}
+
+body.post-type-remorques .edit-post-layout__content,
+body.post-type-remorques .interface-interface-skeleton__content {
+  background: var(--ozi-admin-bg);
+}
+
+body.post-type-remorques .postbox {
+  border: 1px solid var(--ozi-admin-line);
+  border-radius: 18px;
+  box-shadow: var(--ozi-admin-shadow);
+  overflow: hidden;
+}
+
+body.post-type-remorques .postbox .postbox-header {
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--ozi-admin-line);
+  background:
+    linear-gradient(135deg, rgba(15, 124, 255, 0.08), rgba(255, 255, 255, 0)),
+    var(--ozi-admin-card);
+}
+
+body.post-type-remorques .postbox .hndle,
+body.post-type-remorques .postbox .handle-order-higher,
+body.post-type-remorques .postbox .handle-order-lower {
+  color: var(--ozi-admin-ink);
+}
+
+body.post-type-remorques .postbox .inside {
+  margin: 0;
+  padding: 20px;
+  background: var(--ozi-admin-card);
+}
+
+body.post-type-remorques #post-body.columns-2 #postbox-container-1 {
+  margin-top: 0;
+}
+
+body.post-type-remorques #postbox-container-1 .postbox {
+  position: static;
+}
+
+body.post-type-remorques #titlediv,
+body.post-type-remorques #submitdiv,
+body.post-type-remorques #slugdiv,
+body.post-type-remorques #postimagediv {
+  border: 1px solid var(--ozi-admin-line);
+  border-radius: 18px;
+  box-shadow: var(--ozi-admin-shadow);
+  overflow: hidden;
+}
+
+body.post-type-remorques #titlediv .inside,
+body.post-type-remorques #submitdiv .inside,
+body.post-type-remorques #slugdiv .inside {
+  padding: 18px;
+  background: var(--ozi-admin-card);
+}
+
+body.post-type-remorques #titlewrap input {
+  min-height: 56px;
+  padding: 14px 18px;
+  border-radius: 14px;
+  border: 1px solid var(--ozi-admin-line);
+  font-size: 1.15rem;
+  box-shadow: inset 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+body.post-type-remorques #edit-slug-box,
+body.post-type-remorques .inside p,
+body.post-type-remorques .inside label,
+body.post-type-remorques .inside small {
+  color: var(--ozi-admin-ink);
+}
+
+body.post-type-remorques .inside small,
+body.post-type-remorques .ozi-muted {
+  color: var(--ozi-admin-muted) !important;
+}
+
+body.post-type-remorques #ozi_featured_media .inside,
+body.post-type-remorques #ozi_meta_basic .inside,
+body.post-type-remorques #ozi_meta_adv .inside {
+  display: grid;
+  gap: 18px;
+  padding: 20px !important;
+}
+
+body.post-type-remorques #ozi-fm-wrap,
+body.post-type-remorques #ozi_meta_basic .inside > div:first-of-type,
+body.post-type-remorques #ozi_meta_adv .inside > .ozi-box,
+body.post-type-remorques #ozi_meta_adv .inside > div.ozi-box {
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+}
+
+body.post-type-remorques #ozi-fm-wrap,
+body.post-type-remorques #ozi_meta_basic .inside > div:first-of-type {
+  padding: 18px;
+  border: 1px solid var(--ozi-admin-line);
+  border-radius: 16px;
+}
+
+body.post-type-remorques #ozi_meta_basic .inside > div:first-of-type {
+  padding: 20px 22px !important;
+}
+
+body.post-type-remorques #ozi_meta_basic .inside > div:first-of-type > label {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 10px !important;
+  padding-right: 4px;
+}
+
+body.post-type-remorques #ozi_meta_basic .inside > div:first-of-type > label input[type="checkbox"] {
+  margin-top: 2px;
+}
+
+body.post-type-remorques #ozi_meta_basic .inside > div:first-of-type > p:last-child {
+  margin-top: 10px !important;
+}
+
+body.post-type-remorques #ozi-fm-preview {
+  min-height: 220px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 16px !important;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06);
+}
+
+body.post-type-remorques #ozi-fm-preview img,
+body.post-type-remorques #ozi-fm-preview video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain !important;
+}
+
+body.post-type-remorques #ozi_featured_media .ozi-title,
+body.post-type-remorques #ozi_featured_media .ozi-box {
+  display: none;
+}
+
+body.post-type-remorques #ozi_meta_basic p {
+  margin: 0;
+}
+
+body.post-type-remorques #ozi_meta_basic .inside > p,
+body.post-type-remorques #ozi_meta_basic .inside > div[style*="repeat(3,1fr)"] {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+body.post-type-remorques #ozi_meta_basic .inside > div:first-of-type + p {
+  max-width: 260px;
+}
+
+body.post-type-remorques #ozi_meta_basic .inside > div[style*="repeat(3,1fr)"] {
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 14px !important;
+}
+
+body.post-type-remorques #ozi_meta_basic input[type="text"],
+body.post-type-remorques #ozi_meta_basic input[type="url"],
+body.post-type-remorques #ozi_meta_basic textarea,
+body.post-type-remorques #ozi_meta_adv input[type="text"],
+body.post-type-remorques #ozi_meta_adv input[type="url"],
+body.post-type-remorques #ozi_meta_adv textarea {
+  width: 100% !important;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid var(--ozi-admin-line);
+  border-radius: 12px;
+  background: #fff;
+  color: var(--ozi-admin-ink);
+  box-shadow: inset 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+body.post-type-remorques #ozi_meta_basic textarea,
+body.post-type-remorques #ozi_meta_adv textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+body.post-type-remorques #ozi_meta_basic input:focus,
+body.post-type-remorques #ozi_meta_basic textarea:focus,
+body.post-type-remorques #ozi_meta_adv input:focus,
+body.post-type-remorques #ozi_meta_adv textarea:focus,
+body.post-type-remorques #titlewrap input:focus {
+  border-color: var(--ozi-admin-accent);
+  box-shadow: 0 0 0 3px var(--ozi-admin-accent-soft);
+  outline: none;
+}
+
+body.post-type-remorques #ozi_meta_adv .inside {
+  gap: 12px;
+}
+
+body.post-type-remorques #ozi_meta_adv .ozi-title {
+  margin: 6px 0 0;
+  padding-top: 10px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ozi-admin-muted);
+}
+
+body.post-type-remorques #ozi_meta_adv .ozi-box {
+  padding: 18px !important;
+  border: 1px solid var(--ozi-admin-line) !important;
+  border-radius: 16px !important;
+  box-shadow: none;
+  margin: 0 !important;
+}
+
+body.post-type-remorques #ozi_meta_adv .ozi-row,
+body.post-type-remorques #ozi_meta_adv #ozi-infos .item {
+  gap: 14px !important;
+}
+
+body.post-type-remorques #ozi_meta_adv .ozi-list > .item {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid #e5edf5 !important;
+}
+
+body.post-type-remorques #ozi_meta_adv .ozi-list > .item:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0 !important;
+}
+
+body.post-type-remorques .ozi-accessories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+body.post-type-remorques .ozi-accessory-option {
+  border: 1px solid var(--ozi-admin-line);
+  border-radius: 14px;
+  padding: 14px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+}
+
+body.post-type-remorques .ozi-accessory-option label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+body.post-type-remorques .ozi-accessory-option input[type="checkbox"] {
+  margin-top: 3px;
+}
+
+body.post-type-remorques .ozi-accessory-option strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+body.post-type-remorques #ozi_meta_adv .ozi-thumb {
+  border: 1px solid var(--ozi-admin-line);
+  border-radius: 14px !important;
+}
+
+body.post-type-remorques #ozi_meta_adv .ozi-actions,
+body.post-type-remorques #ozi-fm-wrap > div:last-of-type {
+  gap: 10px !important;
+  align-items: center;
+}
+
+body.post-type-remorques .button,
+body.post-type-remorques .button-secondary {
+  border-radius: 999px;
+  border-color: var(--ozi-admin-line);
+  min-height: 38px;
+  padding: 0 14px;
+}
+
+body.post-type-remorques .button.button-primary {
+  background: var(--ozi-admin-accent);
+  border-color: var(--ozi-admin-accent);
+}
+
+body.post-type-remorques .button-link-delete {
+  color: #c52828;
+}
+
+body.post-type-remorques #submitdiv .misc-pub-section,
+body.post-type-remorques #submitdiv .handle-actions,
+body.post-type-remorques #submitdiv .inside {
+  background: var(--ozi-admin-card);
+}
+
+body.post-type-remorques #submitdiv {
+  position: sticky;
+  top: var(--ozi-admin-sticky-offset);
+  z-index: 6;
+  overflow: visible;
+}
+
+body.post-type-remorques #submitdiv .inside {
+  padding: 0;
+}
+
+body.post-type-remorques #submitdiv .submitbox {
+  padding: 18px;
+}
+
+body.post-type-remorques #submitdiv #major-publishing-actions {
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
+  margin: 0;
+  padding: 14px 18px 18px;
+  border-top: 1px solid var(--ozi-admin-line);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.88), #ffffff 38%);
+  border-radius: 0 0 18px 18px;
+}
+
+body.post-type-remorques #submitdiv #minor-publishing-actions {
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--ozi-admin-line);
+}
+
+body.post-type-remorques #submitdiv .misc-pub-section {
+  padding: 14px 18px;
+}
+
+body.post-type-remorques #submitdiv #publishing-action {
+  display: flex;
+  justify-content: flex-end;
+}
+
+body.post-type-remorques #submitdiv #publish {
+  min-width: 160px;
+  min-height: 42px;
+  border-radius: 999px;
+  font-weight: 700;
+  box-shadow: 0 12px 24px rgba(15, 124, 255, 0.2);
+}
+
+body.post-type-remorques #submitdiv #save-post,
+body.post-type-remorques #submitdiv .preview {
+  border-radius: 999px;
+}
+
+body.post-type-remorques #submitdiv .misc-pub-section a,
+body.post-type-remorques #submitdiv .misc-pub-section button {
+  word-break: break-word;
+}
+
+body.post-type-remorques #submitdiv .misc-pub-section {
+  border-top-color: var(--ozi-admin-line);
+}
+
+body.post-type-remorques .ozi-admin-accordion {
+  border: 1px solid var(--ozi-admin-line);
+  border-radius: 18px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  overflow: hidden;
+}
+
+body.post-type-remorques .ozi-admin-accordion + .ozi-admin-accordion {
+  margin-top: 12px;
+}
+
+body.post-type-remorques .ozi-admin-accordion__toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  padding: 16px 18px;
+  border: 0;
+  background: transparent;
+  color: var(--ozi-admin-ink);
+  font-size: 0.98rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-align: left;
+  cursor: pointer;
+}
+
+body.post-type-remorques .ozi-admin-accordion__icon {
+  width: 11px;
+  height: 11px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform 0.18s ease;
+}
+
+body.post-type-remorques .ozi-admin-accordion.is-open .ozi-admin-accordion__icon {
+  transform: rotate(225deg);
+}
+
+body.post-type-remorques .ozi-admin-accordion__content {
+  padding: 0 18px 18px;
+}
+
+body.post-type-remorques .ozi-admin-accordion__content .ozi-box {
+  border: 0 !important;
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+body.post-type-remorques .ozi-admin-flash {
+  animation: ozi-admin-flash 0.9s ease;
+}
+
+@keyframes ozi-admin-flash {
+  0% {
+    box-shadow: 0 0 0 0 rgba(15, 124, 255, 0.24);
+  }
+
+  100% {
+    box-shadow: 0 0 0 12px rgba(15, 124, 255, 0);
+  }
+}
+
+@media (max-width: 1200px) {
+  body.post-type-remorques #submitdiv {
+    position: static;
+  }
+}
+
+@media (max-width: 900px) {
+  body.post-type-remorques #ozi_meta_basic .inside > div[style*="repeat(3,1fr)"],
+  body.post-type-remorques #ozi_meta_adv .ozi-row,
+  body.post-type-remorques #ozi_meta_adv #ozi-infos .item {
+    grid-template-columns: 1fr !important;
+  }
+
+  body.post-type-remorques .postbox .inside,
+  body.post-type-remorques #titlediv .inside,
+  body.post-type-remorques #submitdiv .inside,
+  body.post-type-remorques #slugdiv .inside {
+    padding: 16px;
+  }
+
+  body.post-type-remorques #ozi_featured_media .inside,
+  body.post-type-remorques #ozi_meta_basic .inside,
+  body.post-type-remorques #ozi_meta_adv .inside {
+    padding: 16px !important;
+  }
+
+  body.post-type-remorques #submitdiv .submitbox,
+  body.post-type-remorques #submitdiv #minor-publishing-actions,
+  body.post-type-remorques #submitdiv .misc-pub-section,
+  body.post-type-remorques #submitdiv #major-publishing-actions {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

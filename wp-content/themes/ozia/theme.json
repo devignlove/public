@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "settings": {
+    "color": {
+      "custom": true,
+      "palette": [
+        {"slug": "brand", "color": "#ffffff", "name": "Brand"},
+        {"slug": "ink",   "color": "#f1f1f1", "name": "Ink"},
+        {"slug": "muted", "color": "#94a3b8", "name": "Muted"},
+        {"slug": "bg",    "color": "#000000", "name": "Background"}
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {"fontFamily": "system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif", "slug": "system", "name": "System"}
+      ]
+    },
+    "spacing": {
+      "customPadding": true,
+      "units": ["px", "rem", "%"]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var(--bg)",
+      "text": "var(--ink)",
+      "link": "var(--brand)"
+    },
+    "typography": {
+      "fontFamily": "system"
+    }
+  },
+  "templateParts": [
+    {"name": "header", "area": "header"},
+    {"name": "footer", "area": "footer"}
+  ],
+  "templates": [
+    "front-page",
+    "index",
+    "single",
+    "single-remorques",
+    "archive",
+    "search",
+    "page-remorque"
+  ]
+}
